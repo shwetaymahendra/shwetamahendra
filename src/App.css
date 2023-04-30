@@ -1,0 +1,19 @@
+.navbar {
+  position: relative;
+  z-index: 100;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  
+  --swiper-navigation-size: 15px;
+}
+
+.swiper-button-next::after 
+ {
+  color:aliceblue;
+}
+.swiper-button-prev::after
+ {
+  color:aliceblue;
+}
