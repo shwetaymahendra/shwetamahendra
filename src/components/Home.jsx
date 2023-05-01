@@ -31,21 +31,21 @@ const Home = () => {
             <img
               src={CarouselImage11}
               alt="carousel3"
-              className="w-full h-screen object-cover"
+              className="w-full lg:h-screen  object-cover"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src={CarouselImage12}
               alt="carousel3"
-              className="w-full h-screen object-cover"
+              className="w-full lg:h-screen object-cover"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src={CarouselImage3}
               alt="carousel3"
-              className="w-full h-screen object-cover"
+              className="w-full lg:h-screen object-cover"
             />
           </SwiperSlide>
         </Swiper>
