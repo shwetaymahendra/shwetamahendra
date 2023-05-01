@@ -7,7 +7,7 @@ const Blog = () => {
   return (
     <div
       name="blog"
-      className="bg-gradient-to-b from-black to-gray-800 w-full h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-full   h-fit"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center center w-full text-white">
        
