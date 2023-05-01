@@ -11,11 +11,33 @@ export default class SwipeToSlide extends Component {
       slidesToShow: 5,
       dots: true,
       swipeToSlide: true,
+      responsive: [
+        {
+          breakpoint : 1280,
+          settings : {
+            slidesToShow:4,
+          }
+        },
+        {
+          breakpoint : 1000,
+          settings : {
+           slidesToShow:3,
+          }
+        },
+        {
+          breakpoint : 650,
+          settings : {
+            slidesToShow:2,
+          }
+        }
+      ],
       afterChange: function (index) {
         console.log(
           `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
         );
       },
+
+
     };
     return (
       <div className="max-h-lg py-10 ">
