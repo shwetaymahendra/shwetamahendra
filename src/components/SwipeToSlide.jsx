@@ -35,7 +35,7 @@ export default class SwipeToSlide extends Component {
             />
           </svg>
         </a>
-        <a href="">
+        <a href="https://tailwindcss.com/docs/align-content">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

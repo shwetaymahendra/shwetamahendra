@@ -8,7 +8,7 @@ import Author from "./components/Author";
 import SocialLinks from "./components/SocialLinks";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
-import SwipeToSlide from "./components/SwipeToSlide";
+
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
       <Blog />
       <About />
       <Contact />
-      {/* <SwipeToSlide/> */}
+      
       </div>
   );
 }
