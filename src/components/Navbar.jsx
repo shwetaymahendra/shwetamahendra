@@ -42,7 +42,7 @@ const Navbar = () => {
           </li>
           <li className="px-4 cursor-pointer">
             <Link to="contact" smooth duration={500} className="hover:text-gray-400">
-              Contact
+              Contactk
             </Link>
           </li>
         </ul>
