@@ -1,19 +1,19 @@
 import React from "react";
 import SwipeToSlide from "./SwipeToSlide";
-// import Aimg1 from "../assets/Travel Images/Travelimg1.jpg";
-// import Aimg2 from "../assets/Travel Images/Travelimg2.jpg";
-// import Aimg3 from "../assets/Travel Images/Travelimg3.jpg";
+// import Aimg1 from "../assets/Author Images/Authorimg1.jpg";
+// import Aimg2 from "../assets/Author Images/Authorimg2.jpg";
+// import Aimg3 from "../assets/Author Images/Authorimg3.jpg";
 
-const Travel = () => {
+const Author = () => {
   return (
     <div
-      name="travel"
+      name="Author"
       className="bg-gradient-to-b from-gray-800 to-black w-full text-white 2xl:h-screen container max-w-full"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Travel
+            Author
           </p>
           <p className="py-6">Check out some of my work right here</p>
         </div>
@@ -66,4 +66,4 @@ const Travel = () => {
   );
 };
 
-export default Travel;
+export default Author;
