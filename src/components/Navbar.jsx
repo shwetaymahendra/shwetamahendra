@@ -27,17 +27,17 @@ const Navbar = () => {
           </li>
           <li className="px-4 cursor-pointer">
             <Link to="author" smooth duration={500} className="hover:text-gray-400">
-              Author
+              Travel
             </Link>
           </li>
           <li className="px-4 cursor-pointer">
             <Link to="blog" smooth duration={500} className="hover:text-gray-400">
-              Blog
+              Fashion Tips
             </Link>
           </li>
           <li className="px-4 cursor-pointer">
             <Link to="about" smooth duration={500} className="hover:text-gray-400">
-              About
+              Technology
             </Link>
           </li>
           <li className="px-4 cursor-pointer">
