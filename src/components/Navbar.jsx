@@ -14,7 +14,7 @@ const Navbar = () => {
         <div>
           <Link to="home" smooth duration={500}>
             <h1 className="text-3xl font-signature ml-2 cursor-pointer">
-              Shweta Mahendra
+              Travel-Explore
             </h1>
           </Link>
         </div>
@@ -26,7 +26,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="px-4 cursor-pointer">
-            <Link to="author" smooth duration={500} className="hover:text-gray-400">
+            <Link to="Travel" smooth duration={500} className="hover:text-gray-400">
               Travel
             </Link>
           </li>
@@ -42,7 +42,7 @@ const Navbar = () => {
           </li>
           <li className="px-4 cursor-pointer">
             <Link to="contact" smooth duration={500} className="hover:text-gray-400">
-              Contactk
+              Contact
             </Link>
           </li>
         </ul>
@@ -65,8 +65,8 @@ const Navbar = () => {
       </Link>
     </li>
     <li className="py-2 cursor-pointer">
-      <Link to="author" smooth duration={500} onClick={() => setNav(false)}>
-        Author
+      <Link to="Travel" smooth duration={500} onClick={() => setNav(false)}>
+        Travel
       </Link>
     </li>
     <li className="py-2 cursor-pointer">

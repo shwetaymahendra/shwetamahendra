@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import About from "./components/About";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import Author from "./components/Author";
+import Travel from "./components/Travel";
 import SocialLinks from "./components/SocialLinks";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
@@ -16,7 +16,7 @@ function App() {
       <Navbar />
       <Home />
       <SocialLinks />
-      <Author />
+      <Travel/>
       <Blog />
       <About />
       <Contact />
