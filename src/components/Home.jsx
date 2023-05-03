@@ -17,6 +17,7 @@ const Home = () => {
   return (
     <React.Fragment>
       <div className="bg-gradient-to-b from-black via-black to-gray-800 pt-2">
+        <h1 className="text-white text-4xl py-2 sm:h-20 text-center">'This is Quote of the Day'</h1>
         <Swiper
           style={{ height: "50%", width: "78%", marginTop: "" }}
           cssMode={true}
