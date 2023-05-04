@@ -20,6 +20,9 @@
 .custom-swiper .swiper-button-next::after , .custom-swiper .swiper-button-prev::after {
   color: black;
 }
+.custom-swiper{
+  background-color: white;
+}
 
 .slick-next {
   right: -10px;

@@ -20,11 +20,11 @@ const Author = () => {
   return (
     <div
       name="Author"
-      className="bg-gradient-to-b from-gray-800 to-black w-full text-white 2xl:h-fit h-fit container max-w-full "
+      className="bg-gradient-to-b from-gray-800  to-black w-full text-white 2xl:h-fit h-fit  container max-w-full "
     >
-      <div className="max-w-fit h-fit-lg p-4 mx-auto flex flex-col justify-center  w-full h-full ">
+      <div className="max-w-screen-lg  h-fit-lg p-4 mx-auto flex flex-col justify-center center w-full h-full ">
         <div className="pt-10">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-4xl font-bold inline border-b-4 p-2 border-gray-500">
             Author
           </p>
           <p className="py-6">Check out some of my work right here</p>
@@ -40,7 +40,7 @@ const Author = () => {
           Reviews
         </h1>
 
-        <div className="bg-white p-0 pt-2">
+        <div className="bg-gradient-to-b from-black to-gray-800 p-0 pt-2">
           <React.Fragment>
             <Swiper
               style={{
