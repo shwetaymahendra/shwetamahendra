@@ -57,7 +57,7 @@ const Author = () => {
               mousewheel={true}
               keyboard={true}
               modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-              className="mySwiper rounded-2xl custom-swiper contents"
+              className="mySwiper rounded-md custom-swiper contents"
             >
               <SwiperSlide>
                 <img
