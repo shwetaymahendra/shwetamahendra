@@ -12,12 +12,13 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
+import Marquee from "react-fast-marquee";
 
 const Home = () => {
   return (
     <React.Fragment>
       <div className="bg-gradient-to-b from-black via-black to-gray-800 pt-2">
-        <h1 className="text-white text-4xl py-2 sm:h-20 text-center">'This is Quote of the Day'</h1>
+        <Marquee className="text-white text-lg py-2 sm:h-20 text-center">'This is Quote of the Day'</Marquee>
         <Swiper
           style={{ height: "50%", width: "78%", marginTop: "" }}
           cssMode={true}

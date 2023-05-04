@@ -5,17 +5,20 @@
 
 .swiper-button-prev,
 .swiper-button-next {
-  --swiper-navigation-size: 15px;
-  background-color: black;
-  border-radius: 10px;
+  --swiper-navigation-size: 15px
   padding: 15px;
+  
 }
 
 .swiper-button-next::after {
   color: aliceblue;
 }
 .swiper-button-prev::after {
-  color: aliceblue;
+  color: aliceblue ;
+}
+
+.custom-swiper .swiper-button-next::after , .custom-swiper .swiper-button-prev::after {
+  color: black;
 }
 
 .slick-next {

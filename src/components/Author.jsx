@@ -1,5 +1,17 @@
 import React from "react";
-import SwipeToSlide from "./SwipeToSlide";
+import SwipeToSlideAuthor from "./SwipeToSlideAuthor";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
+import Review1 from "../assets/Reviews/Review1.JPG";
+import Review2 from "../assets/Reviews/Review2.JPG";
+import Review3 from "../assets/Reviews/Review3.JPG";
+import Review4 from "../assets/Reviews/Review4.JPG";
+import Review5 from "../assets/Reviews/Review5.JPG";
+import Review6 from "../assets/Reviews/Review6.JPG";
+import Review7 from "../assets/Reviews/Review7.JPG";
+import Review8 from "../assets/Reviews/Review8.JPG";
+import Review9 from "../assets/Reviews/Review9.JPG";
+import Review10 from "../assets/Reviews/Review10.JPG";
 // import Aimg1 from "../assets/Author Images/Authorimg1.jpg";
 // import Aimg2 from "../assets/Author Images/Authorimg2.jpg";
 // import Aimg3 from "../assets/Author Images/Authorimg3.jpg";
@@ -8,10 +20,10 @@ const Author = () => {
   return (
     <div
       name="Author"
-      className="bg-gradient-to-b from-gray-800 to-black w-full text-white 2xl:h-screen container max-w-full"
+      className="bg-gradient-to-b from-gray-800 to-black w-full text-white 2xl:h-fit h-fit container max-w-full "
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
-        <div className="pb-8">
+      <div className="max-w-fit h-fit-lg p-4 mx-auto flex flex-col justify-center  w-full h-full ">
+        <div className="pt-10">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Author
           </p>
@@ -19,48 +31,107 @@ const Author = () => {
         </div>
 
         <div>
-          <SwipeToSlide/>
+          <SwipeToSlideAuthor />
         </div>
+      </div>
+      
+      <div className="text-center">
+        <h1 className="text-2xl pt-5 pb-2 font-bold">
+          Reviews
+        </h1>
 
-        {/* <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          <div className="shadow-md shadow-gray-600 rounded-lg">
-            <img
-              src={Aimg1}
-              alt="book"
-              className="rounded-md duration-200 hover:scale-105"
-            />
-            <div className="flex items-center justify-center">
-              <h1 className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                My Books
-              </h1>
-            </div>
-          </div>
-          <div className="shadow-md shadow-gray-600 rounded-lg">
-            <img
-              src={Aimg2}
-              alt="book"
-              className="rounded-md duration-200 hover:scale-105"
-            />
-            <div className="flex items-center justify-center">
-              <h1 className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                My Books
-              </h1>
-            </div>
-          </div>
-          <div className="shadow-md shadow-gray-600 rounded-lg">
-            <img
-              src={Aimg3}
-              alt="book"
-              className="rounded-md duration-200 hover:scale-105"
-            />
-            <div className="flex items-center justify-center">
-              <h1 className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                My Books
-              </h1>
-            </div> */}
-          {/* </div>
-        </div> */}
-        
+        <div className="bg-white p-0 pt-2">
+          <React.Fragment>
+            <Swiper
+              style={{
+                height: "40%",
+                width: "50%",
+                marginTop: "",
+                ".swiper-button-next::after, .swiper-button-prev::after": {
+                  color: "black",
+                },
+              }}
+              cssMode={true}
+              navigation={true}
+              pagination={true}
+              mousewheel={true}
+              keyboard={true}
+              modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+              className="mySwiper rounded-2xl custom-swiper contents"
+            >
+              <SwiperSlide>
+                <img
+                  src={Review1}
+                  alt="carousel3"
+                  className="w-full  lg:h-fit h-fit  object-cover"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src={Review2}
+                  alt="carousel3"
+                  className="w-full lg:h-fit h-fit object-cover"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src={Review3}
+                  alt="carousel3"
+                  className="w-full lg:h-fit h-fit object-cover"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src={Review4}
+                  alt="carousel3"
+                  className="w-full lg:h-fit h-fit object-cover"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src={Review5}
+                  alt="carousel3"
+                  className="w-full lg:h-fit h-fit object-cover"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src={Review6}
+                  alt="carousel3"
+                  className="w-full lg:h-fit h-fit object-cover"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src={Review7}
+                  alt="carousel3"
+                  className="w-full lg:h-fit h-fit object-cover"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src={Review8}
+                  alt="carousel3"
+                  className="w-full lg:h-fit h-fit object-cover"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src={Review9}
+                  alt="carousel3"
+                  className="w-full lg:h-fit h-fit object-cover"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src={Review10}
+                  alt="carousel3"
+                  className="w-full lg:h-fit h-fit object-cover"
+                />
+              </SwiperSlide>
+            </Swiper>
+          </React.Fragment>
+        </div>
       </div>
     </div>
   );

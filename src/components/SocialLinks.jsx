@@ -10,7 +10,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/",
+      href: "https://www.linkedin.com/in/mahendrashweta",
       style: "rounded-tr-md",
     },
     {
@@ -38,7 +38,7 @@ const SocialLinks = () => {
           Twitter <FaTwitter size={30} />
         </>
       ),
-      href: "https://www.twitter.com",
+      href: "https://twitter.com/ShwetaYMahendra?t=Ey4v-zJrjKl9r-JYhbTh2g&s=08",
       style: "rounded-br-md",
     },
   ];
