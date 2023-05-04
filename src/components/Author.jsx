@@ -40,12 +40,12 @@ const Author = () => {
           Reviews
         </h1>
 
-        <div className="bg-gradient-to-b from-black to-gray-800 p-0 pt-2">
+        <div className="bg-gradient-to-b from-black to-gray-800   p-0 pt-2">
           <React.Fragment>
             <Swiper
               style={{
-                height: "40%",
-                width: "50%",
+                height: "50%",
+                width: "65%",
                 marginTop: "",
                 ".swiper-button-next::after, .swiper-button-prev::after": {
                   color: "black",
