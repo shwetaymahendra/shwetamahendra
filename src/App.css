@@ -17,10 +17,10 @@
   color: aliceblue ;
 }
 
-.custom-swiper .swiper-button-next::after , .custom-swiper .swiper-button-prev::after {
+.custom-swiper2 .swiper-button-next::after , .custom-swiper2 .swiper-button-prev::after {
   color: black;
 }
-.custom-swiper{
+.custom-swiper2{
   background-color: white;
 }
 
