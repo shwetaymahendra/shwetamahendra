@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import Front from '../assets/Author Images/Backround.jpg';
 
 export default class SwipeToSlide extends Component {
   render() {
@@ -58,11 +59,13 @@ export default class SwipeToSlide extends Component {
 
         <Slider {...settings}>
           <div className="p-4">
+            <a href="https://www.amazon.in/MANY-VISIONS-WORLDS-SHWETA-MAHENDRA/dp/9391813402/ref=sr_1_1?qid=1683356680&refinements=p_27%3ASHWETA+MAHENDRA&s=books&sr=1-1">
             <img
-              src="https://m.media-amazon.com/images/I/41SRZpIc9nL._SX322_BO1,204,203,200_.jpg"
+              src={Front}
               alt=""
               className="rounded-2xl"
             />
+            </a>
           </div>
           <div className="p-4">
             <img

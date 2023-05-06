@@ -12,10 +12,6 @@ import Review7 from "../assets/Reviews/Review7.JPG";
 import Review8 from "../assets/Reviews/Review8.JPG";
 import Review9 from "../assets/Reviews/Review9.JPG";
 import Review10 from "../assets/Reviews/Review10.JPG";
-// import Aimg1 from "../assets/Author Images/Authorimg1.jpg";
-// import Aimg2 from "../assets/Author Images/Authorimg2.jpg";
-// import Aimg3 from "../assets/Author Images/Authorimg3.jpg";
-
 const Author = () => {
   return (
     <div
