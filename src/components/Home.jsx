@@ -2,11 +2,9 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "../App.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-// import CarouselImage1 from "../assets/Carousel/CarouselImage1.jpg";
-// import CarouselImage2 from "../assets/Carousel/CarouselImage2.jpg";
-import CarouselImage3 from "../assets/Carousel/CarouselImage3.jpg";
-import CarouselImage11 from "../assets/Carousel/CarouselImage11.jpeg";
-import CarouselImage12 from "../assets/Carousel/CarouselImage12.jpeg";
+import CarouselImage1 from "../assets/Carousel/CarouselImage1.jpeg";
+import CarouselImage2 from "../assets/Carousel/CarouselImage2.jpeg";
+// import CarouselImage3 from "../assets/Carousel/CarouselImage3.jpg";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/navigation";
@@ -31,25 +29,25 @@ const Home = () => {
         >
           <SwiperSlide>
             <img
-              src={CarouselImage11}
+              src={CarouselImage1}
               alt="carousel3"
               className="w-full lg:h-screen  object-cover"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src={CarouselImage12}
+              src={CarouselImage2}
               alt="carousel3"
               className="w-full lg:h-screen object-cover"
             />
           </SwiperSlide>
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <img
               src={CarouselImage3}
               alt="carousel3"
               className="w-full lg:h-screen object-cover"
             />
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper>
       </div>
     </React.Fragment>

@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import HeavenMail from '../assets/Blog/HeavenMailReview.jpg';
+// import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import DailyGuardianReview1 from '../assets/Blog/DailyGaurdianReview1.jpg'
+import HeavenMailReiview3 from '../assets/Blog/HeavenMailReview3.jpg';
 
 export default class SwipeToSlide extends Component {
   render() {
@@ -41,7 +42,7 @@ export default class SwipeToSlide extends Component {
     return (
       <div className="max-h-lg py-10 ">
         <div className="pr-6">
-          <a
+          {/* <a
             href="https://voluble-hotteok-c43fbc.netlify.app/"
             target="_blank"
             rel="noreferrer"
@@ -54,75 +55,65 @@ export default class SwipeToSlide extends Component {
             <span className="group-hover:scale-110 duration-300">
               <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
             </span>
-          </a>
+          </a> */}
         </div>
 
         <Slider {...settings}>
           <div className="p-4">
-            <a href="https://epaper.heavenmail.in/epaper/edition/648/heavenmail-april/page/5">
+            <a href="https://epaper.thedailyguardian.com/view/223/tdg-17-april/14" target="_blank" rel="noreferrer">
             <img
-              src={HeavenMail}
+              src={DailyGuardianReview1}
               alt=""
               className="rounded-2xl"
             />
             </a>
           </div>
           <div className="p-4">
+            <a href="https://timesofindia.indiatimes.com/blogs/voices/many-visions-many-worlds-the-harmonious-blend-of-the-past-present-the-future/" target="_blank" rel="noreferrer">
             <img
-              src="https://m.media-amazon.com/images/I/41SRZpIc9nL._SX322_BO1,204,203,200_.jpg"
+              src={HeavenMailReiview3}
               alt=""
               className="rounded-2xl"
             />
+            </a>
           </div>
           <div className="p-4">
+            <a href="https://epaper.heavenmail.in/epaper/edition/648/heavenmail-april/page/5" target="_blank" rel="noreferrer">
             <img
-              src="https://m.media-amazon.com/images/I/41SRZpIc9nL._SX322_BO1,204,203,200_.jpg"
+              src={HeavenMailReiview3}
               alt=""
               className="rounded-2xl"
             />
+            </a>
           </div>
           <div className="p-4">
+            <a href="https://epaper.heavenmail.in/epaper/edition/648/heavenmail-april/page/5" target="_blank" rel="noreferrer">
             <img
-              src="https://m.media-amazon.com/images/I/41SRZpIc9nL._SX322_BO1,204,203,200_.jpg"
+              src={HeavenMailReiview3}
               alt=""
               className="rounded-2xl"
             />
+            </a>
           </div>
           <div className="p-4">
+            <a href="https://epaper.heavenmail.in/epaper/edition/648/heavenmail-april/page/5" target="_blank" rel="noreferrer">
             <img
-              src="https://m.media-amazon.com/images/I/41SRZpIc9nL._SX322_BO1,204,203,200_.jpg"
+              src={HeavenMailReiview3}
               alt=""
               className="rounded-2xl"
             />
+            </a>
           </div>
           <div className="p-4">
+            <a href="https://epaper.heavenmail.in/epaper/edition/648/heavenmail-april/page/5" target="_blank" rel="noreferrer">
             <img
-              src="https://m.media-amazon.com/images/I/41SRZpIc9nL._SX322_BO1,204,203,200_.jpg"
+              src={HeavenMailReiview3}
               alt=""
               className="rounded-2xl"
             />
+            </a>
           </div>
-          <div className="p-4">
-            <img
-              src="https://m.media-amazon.com/images/I/41SRZpIc9nL._SX322_BO1,204,203,200_.jpg"
-              alt=""
-              className="rounded-2xl"
-            />
-          </div>
-          <div className="p-4">
-            <img
-              src="https://m.media-amazon.com/images/I/41SRZpIc9nL._SX322_BO1,204,203,200_.jpg"
-              alt=""
-              className="rounded-2xl"
-            />
-          </div>
-          <div className="p-4">
-            <img
-              src="https://m.media-amazon.com/images/I/41SRZpIc9nL._SX322_BO1,204,203,200_.jpg"
-              alt=""
-              className="rounded-2xl"
-            />
-          </div>
+          
         </Slider>
       </div>
     );
