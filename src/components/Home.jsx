@@ -51,7 +51,6 @@ const Home = () => {
             />
           </SwiperSlide>
         </Swiper>
-        );
       </div>
     </React.Fragment>
   );

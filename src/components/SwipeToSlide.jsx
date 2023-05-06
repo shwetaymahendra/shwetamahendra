@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import Front from '../assets/Author Images/Backround.jpg';
+import HeavenMail from '../assets/Blog/HeavenMailReview.jpg';
 
 export default class SwipeToSlide extends Component {
   render() {
@@ -59,9 +59,9 @@ export default class SwipeToSlide extends Component {
 
         <Slider {...settings}>
           <div className="p-4">
-            <a href="https://www.amazon.in/MANY-VISIONS-WORLDS-SHWETA-MAHENDRA/dp/9391813402/ref=sr_1_1?qid=1683356680&refinements=p_27%3ASHWETA+MAHENDRA&s=books&sr=1-1">
+            <a href="https://epaper.heavenmail.in/epaper/edition/648/heavenmail-april/page/5">
             <img
-              src={Front}
+              src={HeavenMail}
               alt=""
               className="rounded-2xl"
             />
