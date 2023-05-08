@@ -13,7 +13,7 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl mt-6 md:mt-12">
+        <p className="text-xl mt-6 md:mt-12 text-justify">
           Shweta Mahendra is a technology leader with corporate work experience
           spanning over 25 years, in business verticals including retail,
           telecom and futuristic technologies. She is currently associated with
@@ -26,7 +26,7 @@ const About = () => {
         </p>
         <br />
 
-        <p className=" mt-2 text-xl">
+        <p className=" mt-2 text-xl text-justify">
           Apart from her keen interest in technology, she has a knowledge of
           Dhammalipi, an ancient Indian script which exhibits her passion for
           history, archaeology and ancient scripts. She also has keen interest
