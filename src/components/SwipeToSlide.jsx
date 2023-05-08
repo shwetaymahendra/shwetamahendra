@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 // import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import DailyGuardianReview1 from '../assets/Blog/DailyGaurdianReview1.jpg'
+import DailyGuardianReview from '../assets/Blog/DailyGaurdianReview.jpg'
 import HeavenMailReiview3 from '../assets/Blog/HeavenMailReview3.jpg';
+import TimeOfIndia from '../assets/Blog/TimeOfIndia.jpeg';
+import HindustanTimes from '../assets/Blog/HindustanTimes.jpeg';
 
 export default class SwipeToSlide extends Component {
   render() {
@@ -10,7 +12,7 @@ export default class SwipeToSlide extends Component {
       className: "center",
       infinite: true,
       centerPadding: "60px",
-      slidesToShow: 5,
+      slidesToShow: 4,
       dots: true,
       swipeToSlide: true,
       responsive: [
@@ -62,18 +64,18 @@ export default class SwipeToSlide extends Component {
           <div className="p-4">
             <a href="https://epaper.thedailyguardian.com/view/223/tdg-17-april/14" target="_blank" rel="noreferrer">
             <img
-              src={DailyGuardianReview1}
+              src={DailyGuardianReview}
               alt=""
-              className="rounded-2xl"
+              className="rounded-xl"
             />
             </a>
           </div>
           <div className="p-4">
             <a href="https://timesofindia.indiatimes.com/blogs/voices/many-visions-many-worlds-the-harmonious-blend-of-the-past-present-the-future/" target="_blank" rel="noreferrer">
             <img
-              src={HeavenMailReiview3}
+              src={TimeOfIndia}
               alt=""
-              className="rounded-2xl"
+              className="rounded-xl"
             />
             </a>
           </div>
@@ -82,11 +84,29 @@ export default class SwipeToSlide extends Component {
             <img
               src={HeavenMailReiview3}
               alt=""
-              className="rounded-2xl"
+              className="rounded-xl"
             />
             </a>
           </div>
           <div className="p-4">
+            <a href="https://www.hindustantimes.com/cities/mumbai-news/stranded-pink-flamingo-at-dps-lake-in-nerul-sparks-concern-among-residents-and-activists-as-experts-monitor-bird-s-condition-for-rescue-efforts-flamingorescue-dpslake-nerul-101681413625270.html" target="_blank" rel="noreferrer">
+            <img
+              src={HindustanTimes}
+              alt=""
+              className="rounded-xl"
+            />
+            </a>
+          </div>
+          {/* <div className="p-4">
+            <a href="https://epaper.heavenmail.in/epaper/edition/648/heavenmail-april/page/5" target="_blank" rel="noreferrer">
+            <img
+              src={HeavenMailReiview3}
+              alt=""
+              className="rounded-2xl"
+            />
+            </a>
+          </div> */}
+          {/* <div className="p-4">
             <a href="https://epaper.heavenmail.in/epaper/edition/648/heavenmail-april/page/5" target="_blank" rel="noreferrer">
             <img
               src={HeavenMailReiview3}
@@ -95,25 +115,7 @@ export default class SwipeToSlide extends Component {
             />
             </a>
           </div>
-          <div className="p-4">
-            <a href="https://epaper.heavenmail.in/epaper/edition/648/heavenmail-april/page/5" target="_blank" rel="noreferrer">
-            <img
-              src={HeavenMailReiview3}
-              alt=""
-              className="rounded-2xl"
-            />
-            </a>
-          </div>
-          <div className="p-4">
-            <a href="https://epaper.heavenmail.in/epaper/edition/648/heavenmail-april/page/5" target="_blank" rel="noreferrer">
-            <img
-              src={HeavenMailReiview3}
-              alt=""
-              className="rounded-2xl"
-            />
-            </a>
-          </div>
-          
+           */}
         </Slider>
       </div>
     );
