@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter , FaYoutube} from "react-icons/fa";
 
 const SocialLinks = () => {
   const links = [
@@ -20,7 +20,7 @@ const SocialLinks = () => {
           Instagram <FaInstagram size={30} />
         </>
       ),
-      href: "https://instagram.com/",
+      href: "https://instagram.com/shwetaymahendra?igshid=MzRlODBiNWFlZA==",
     },
     {
       id: 3,
@@ -33,6 +33,15 @@ const SocialLinks = () => {
     },
     {
       id: 4,
+      child: (
+        <>
+          Facebook <FaYoutube size={30} />
+        </>
+      ),
+      href: "https://www.youtube.com/@Shwetaymahendra",
+    },
+    {
+      id: 5,
       child: (
         <>
           Twitter <FaTwitter size={30} />
