@@ -140,7 +140,7 @@ const Navbar = () => {
             </a>
 
             <a
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/profile.php?id=100092257607508&mibextid=LQQJ4d"
               target="_blank"
               rel="noopener noreferrer"
             >
