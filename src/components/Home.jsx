@@ -15,7 +15,13 @@ const Home = () => {
   return (
     <React.Fragment>
       <div className="bg-gradient-to-b from-black via-black to-gray-800 pt-2">
-        <Marquee className="text-white text-lg py-2 sm:h-20 text-center">'Nothingness is everything. Even when i feel nothing, I feel it completely.'</Marquee>
+      <div className="w-full h-16 overflow-hidden">
+      <Marquee className="text-white text-lg py-2 text-center whitespace-pre-wrap sm:whitespace-normal">
+        <span>
+        {'\u00A0'}{'\u00A0'}{'\u00A0'}Nothingness is everything. Even when I feel nothing, I feel it completely.{'\u00A0'}{'\u00A0'}{'\u00A0'}
+        </span>
+      </Marquee>
+    </div>
         <Swiper
           style={{ height: "50%", width: "78%", marginTop: "" }}
           cssMode={true}

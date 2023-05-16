@@ -40,6 +40,16 @@ const Navbar = () => {
           </li>
           <li className="px-4 cursor-pointer">
             <Link
+              to="News & Media"
+              smooth
+              duration={500}
+              className="hover:text-gray-400"
+            >
+              News & Media
+            </Link>
+          </li>
+          <li className="px-4 cursor-pointer">
+            <Link
               to="blog"
               smooth
               duration={500}
@@ -60,12 +70,12 @@ const Navbar = () => {
           </li>
           <li className="px-4 cursor-pointer">
             <Link
-              to="contact"
+              to="Connect"
               smooth
               duration={500}
               className="hover:text-gray-400"
             >
-              Contact
+              Connect
             </Link>
           </li>
         </ul>
@@ -98,6 +108,16 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="py-2 cursor-pointer">
+            <Link
+              to="News"
+              smooth
+              duration={500}
+              onClick={() => setNav(false)}
+            >
+              News & Media
+            </Link>
+          </li>
+          <li className="py-2 cursor-pointer">
             <Link to="blog" smooth duration={500} onClick={() => setNav(false)}>
               Blog
             </Link>
@@ -114,12 +134,12 @@ const Navbar = () => {
           </li>
           <li className="py-2 cursor-pointer">
             <Link
-              to="contact"
+              to="Connect"
               smooth
               duration={500}
               onClick={() => setNav(false)}
             >
-              Contact
+              Connect
             </Link>
           </li>
           <li className="flex justify-center items-center space-x-4 py-2">

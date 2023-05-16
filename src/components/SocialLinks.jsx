@@ -35,7 +35,7 @@ const SocialLinks = () => {
       id: 4,
       child: (
         <>
-          Facebook <FaYoutube size={30} />
+          Youtube <FaYoutube size={30} />
         </>
       ),
       href: "https://www.youtube.com/@Shwetaymahendra",

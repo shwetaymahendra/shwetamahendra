@@ -8,6 +8,7 @@ import Author from "./components/Author";
 import SocialLinks from "./components/SocialLinks";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
+import News from "./components/News";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Home />
       <SocialLinks />
       <Author/>
+      <News/>
       <Blog />
       <About />
       <Contact />
