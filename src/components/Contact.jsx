@@ -1,15 +1,15 @@
 import React from "react";
 
-const Connect = () => {
+const Contact = () => {
   return (
     <div
-      name="Connect"
+      name="Contact"
       className="w-full h-fit bg-gradient-to-b from-black to-gray-800 text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto">
         <div className="pb-2">
           <p className="text-4xl font-bold  inline border-b-4 border-gray-500 md:pt-5">
-            Connect
+            Contact
           </p>
           <p className="py-6">Submit the form below to get in touch with me</p>
         </div>
@@ -49,4 +49,4 @@ const Connect = () => {
   );
 };
 
-export default Connect;
+export default Contact;

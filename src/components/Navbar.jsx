@@ -75,7 +75,7 @@ const Navbar = () => {
               duration={500}
               className="hover:text-gray-400"
             >
-              Connect
+              Contact
             </Link>
           </li>
         </ul>
@@ -109,7 +109,7 @@ const Navbar = () => {
           </li>
           <li className="py-2 cursor-pointer">
             <Link
-              to="News"
+              to="News & Media"
               smooth
               duration={500}
               onClick={() => setNav(false)}
@@ -139,7 +139,7 @@ const Navbar = () => {
               duration={500}
               onClick={() => setNav(false)}
             >
-              Connect
+              Contact
             </Link>
           </li>
           <li className="flex justify-center items-center space-x-4 py-2">
