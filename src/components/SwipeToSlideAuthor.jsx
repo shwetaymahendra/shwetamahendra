@@ -7,7 +7,7 @@ export default class SwipeToSlide extends Component {
   render() {
     const settings = {
       className: "center",
-      infinite: true,
+      infinite: false,
       centerPadding: "60px",
       slidesToShow: 1,
       dots: true,
