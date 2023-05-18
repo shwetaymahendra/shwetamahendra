@@ -70,7 +70,7 @@ const Navbar = () => {
           </li>
           <li className="px-4 cursor-pointer">
             <Link
-              to="Connect"
+              to="Contact"
               smooth
               duration={500}
               className="hover:text-gray-400"
@@ -134,7 +134,7 @@ const Navbar = () => {
           </li>
           <li className="py-2 cursor-pointer">
             <Link
-              to="Connect"
+              to="Contact"
               smooth
               duration={500}
               onClick={() => setNav(false)}
