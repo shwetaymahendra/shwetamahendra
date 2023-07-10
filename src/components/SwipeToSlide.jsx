@@ -11,14 +11,14 @@ export default class SwipeToSlide extends Component {
       className: "center",
       infinite: false,
       centerPadding: "60px",
-      slidesToShow: 2,
+      slidesToShow: 3,
       dots: true,
       swipeToSlide: true,
       responsive: [
         {
           breakpoint: 1280,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 3,
           },
         },
         {
