@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import TOI_Blog from '../assets/Blog/TOI_Blog3June2023.jpg';
 
 import TimeOfIndia from "../assets/Blog/TimeOfIndia.jpeg";
+import Blog3 from '../assets/Blog/Blog3.jpg'
 
 export default class SwipeToSlide extends Component {
   render() {
@@ -41,7 +42,7 @@ export default class SwipeToSlide extends Component {
       },
     };
     return (
-      <div className="max-h-lg py-10 ">
+      <div className="max-h-lg py-10">
         <div className="pr-6">
           {/* <a
             href="https://voluble-hotteok-c43fbc.netlify.app/"
@@ -67,7 +68,7 @@ export default class SwipeToSlide extends Component {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={TimeOfIndia} alt="" className="rounded-xl h-96 w-64" />
+              <img src={TimeOfIndia} alt="" className="rounded-xl h-80 w-64" />
             </a>
           </div>
           <div className="p-4">
@@ -75,20 +76,20 @@ export default class SwipeToSlide extends Component {
             <img
               src={TOI_Blog}
               alt=""
-              className="rounded-xl h-96 w-64"
-            />
-            </a>
-          </div>
-          {/* <div className="p-4">
-            <a href="https://www.hindustantimes.com/cities/mumbai-news/stranded-pink-flamingo-at-dps-lake-in-nerul-sparks-concern-among-residents-and-activists-as-experts-monitor-bird-s-condition-for-rescue-efforts-flamingorescue-dpslake-nerul-101681413625270.html" target="_blank" rel="noreferrer">
-            <img
-              src={HindustanTimes}
-              alt=""
-              className="rounded-xl"
+              className="rounded-xl h-80 w-64"
             />
             </a>
           </div>
           <div className="p-4">
+            <a href="https://timesofindia.indiatimes.com/blogs/author/shweta-mahendra/" target="_blank" rel="noreferrer">
+            <img
+              src={Blog3}
+              alt=""
+              className="rounded-xl h-80 w-64"
+            />
+            </a>
+          </div>
+          {/* <div className="p-4">
             <a href="https://epaper.heavenmail.in/epaper/edition/648/heavenmail-april/page/5" target="_blank" rel="noreferrer">
             <img
               src={HeavenMailReiview3}

@@ -18,7 +18,7 @@ const Blog = () => {
           {/* <h2 className="py-6">Here are some of my Blog </h2> */}
         
         </div>
-        <div>
+        <div className="py-10">
           <SwipeToSlide />
         </div>
       </div>

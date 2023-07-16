@@ -18,7 +18,7 @@ const News = () => {
           {/* <h2 className="py-6">Here are some of my News </h2> */}
         
         </div>
-        <div>
+        <div className="pb-10">
           <SwipeToSlideNews />
         </div>
       </div>
