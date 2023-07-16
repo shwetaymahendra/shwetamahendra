@@ -29,7 +29,7 @@ const Home = () => {
       </Marquee>
     </div>
         <Swiper
-          style={{ height: "50%", width: "78%", marginTop: "" }}
+          style={{ height: "50%", width: "78%", marginTop: "4rem" , paddingBottom:"10rem"  }}
           cssMode={true}
           navigation={true}
           pagination={true}
@@ -42,7 +42,7 @@ const Home = () => {
             <img
               src={CarouselImage1}
               alt="carousel3"
-              className="w-full lg:h-screen  object-cover"
+              className="w-full lg:h-screen "
             />
           </SwiperSlide>
           <SwiperSlide>

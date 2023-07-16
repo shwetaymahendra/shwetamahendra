@@ -34,6 +34,8 @@
 .slick-dots li button:before {
   color: white;
 }
-
-
+.mySwiper .swiper-slide img {
+  object-fit:contain;
+  height:20rem;
+}
 
