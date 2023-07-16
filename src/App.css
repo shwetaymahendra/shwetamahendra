@@ -39,3 +39,7 @@
   height:20rem;
 }
 
+.center-horizontally {
+  display: flex;
+  justify-content: center;
+}
